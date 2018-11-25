@@ -1,6 +1,6 @@
 package com.fosafer.retrofitnote
 
-data class News(
+data class NewsBean(
     val list_news: List<NewsItem>,
     val msg: String,
     val status: Int

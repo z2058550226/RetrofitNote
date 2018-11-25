@@ -31,5 +31,5 @@ interface IApi {
     @FormUrlEncoded
     @POST
     fun getNews(@Url url: String = ENTIRE_NEWS_URL,
-                @Field("action") action: String = "news"): Observable<News>
+                @Field("action") action: String = "news"): Observable<NewsBean>
 }
